@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.7.0-ea-b138 (Oracle Corporation)
+Built-By: Ricardo José Traversaro
+Main-Class: Utilidades.class
+Class-Path: Autocompleter.jar jdatepicker-2.0.3.jar JTattoo-1.6.13.jar sqljdbc41.jar
+Permissions: all-permissions
+Codebase: *
+Trusted-Only: true

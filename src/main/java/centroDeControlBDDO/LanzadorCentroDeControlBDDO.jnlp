@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<jnlp spec="1.0+" codebase="http://127.0.0.1/CentroDeControlBDDO/" href="LanzadorCentroDeControlBDDO.jnlp">
+	<information>
+		<title>Centro de Control B.D.DO.</title>
+		<vendor>Encode S.A.</vendor>
+		<homepage href="http://127.0.0.1/"/>
+	</information>
+	<update check="always" policy="always"/>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<!-- Application Resources -->
+		<j2se version="1.7+" href="http://java.sun.com/products/autodl/j2se"/>
+		<jar href="http://127.0.0.1/CentroDeControlBDDO/CentroDeControlBDDO.jar" main="true"/>
+		<jar href="http://127.0.0.1/Autocompleter.jar"/>
+		<jar href="http://127.0.0.1/JTattoo-1.6.13.jar"/>
+		<jar href="http://127.0.0.1/CentroDeControlBDDO/sqljdbc41.jar"/>
+	</resources>
+	<application-desc main-class="Utilidades"/>
+</jnlp>
