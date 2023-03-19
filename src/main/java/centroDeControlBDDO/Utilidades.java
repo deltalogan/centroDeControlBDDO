@@ -1149,7 +1149,7 @@ public abstract class Utilidades
 				
 			public void windowClosing (WindowEvent e)
 			{
-				if (JOptionPane.showConfirmDialog (null, "�Esta seguro que desea cerrar est\u00e1 ventana?", "Cerrar", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION)
+				if (JOptionPane.showConfirmDialog (null, "¿Esta seguro que desea cerrar est\u00e1 ventana?", "Cerrar", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION)
 				
 					((JFrame) ventana).dispose ();
 			}
@@ -1312,7 +1312,7 @@ public abstract class Utilidades
 						
 						if (confirmarCerrar)
 						{
-							if (JOptionPane.showConfirmDialog (null, "�Esta seguro que desea cerrar est\u00e1 ventana?", "Cerrar", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION)
+							if (JOptionPane.showConfirmDialog (null, "¿Esta seguro que desea cerrar est\u00e1 ventana?", "Cerrar", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION)
 								
 								ventana.dispose ();
 						}

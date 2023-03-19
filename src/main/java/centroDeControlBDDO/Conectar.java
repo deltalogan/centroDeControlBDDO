@@ -1,39 +1,23 @@
 package centroDeControlBDDO;
 
 import java.awt.GridBagConstraints;
-
 import java.awt.GridBagLayout;
-
 import java.awt.Insets;
-
 import java.awt.Toolkit;
-
 import java.awt.event.ActionEvent;
-
 import java.awt.event.ActionListener;
 
 import javax.swing.BorderFactory;
-
 import javax.swing.ImageIcon;
-
 import javax.swing.JButton;
-
 import javax.swing.JComboBox;
-
 import javax.swing.JFrame;
-
 import javax.swing.JLabel;
-
 import javax.swing.JOptionPane;
-
 import javax.swing.JPanel;
-
 import javax.swing.JPasswordField;
-
 import javax.swing.JTextField;
-
 import javax.swing.SwingUtilities;
-
 import javax.swing.border.TitledBorder;
 
 public class Conectar extends JFrame
@@ -76,14 +60,14 @@ public class Conectar extends JFrame
 	
 	private void confirmarCerrar ()
 	{
-		if (JOptionPane.showConfirmDialog (null, "�Esta seguro que desea cerrar est\u00e1 ventana?", "Cerrar", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION)
+		if (JOptionPane.showConfirmDialog (null, "¿Esta seguro que desea cerrar est\u00e1 ventana?", "Cerrar", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION)
 			
 			dispose ();
 	}
 	
 	private void initialize ()
 	{
-		this.setIconImage (new ImageIcon (getClass ().getResource ("/Encode.png")).getImage ());
+		this.setIconImage (new ImageIcon (ClassLoader.getSystemResource("centroDeControlBDDO/Encode.png")).getImage());
 		this.setSize (326, 289);
 		this.setContentPane (getJPanelConectar ());
 		this.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
@@ -139,8 +123,8 @@ public class Conectar extends JFrame
 	{
 		if (jLabelConectar == null)
 		{
-			jLabelConectar = new JLabel ("");
-			jLabelConectar.setIcon (new ImageIcon (getClass ().getResource ("/Conectar.jpg")));
+			jLabelConectar = new JLabel ("");			
+			jLabelConectar.setIcon (new ImageIcon (ClassLoader.getSystemResource("centroDeControlBDDO/Conectar.jpg")));
 		}
 		
 		return jLabelConectar;
