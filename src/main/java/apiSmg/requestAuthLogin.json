@@ -1,0 +1,12 @@
+{
+	"apiKey": "cab460348b4281af1457",
+	"email": "integracionesapi110619@swissmedical.com.ar",
+	"password": "Swiss1234",
+	"device": {
+		"messagingid": "",
+		"deviceid": "",
+		"devicename": "",
+		"bloqueado": 0,
+		"recordar": 0
+	}
+}

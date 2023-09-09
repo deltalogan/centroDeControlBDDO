@@ -1,0 +1,6 @@
+apiSmg\InformaDiagnostico.class
+apiSmg\Registracion.class
+apiSmg\TipoPrestacion.class
+apiSmg\CancelaPrestacion.class
+apiSmg\AuthLogin.class
+apiSmg\Elegibilidad.class
